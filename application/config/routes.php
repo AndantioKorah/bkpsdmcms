@@ -1,7 +1,4 @@
 <?php
-require_once 'tio.php';
-require_once 'laporan.php';
-
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
@@ -52,13 +49,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'welcome';
-$route['404_override'] = 'login/C_Login/notFoundOverride';
+$route['default_controller'] = 'main';
+$route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-
-$route['login'] = 'login/C_Login/login';
-$route['logout'] = 'login/C_Login/logout';
-
-
-// admin
-$route['welcome'] = 'login/C_Login/welcomePage';

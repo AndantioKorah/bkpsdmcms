@@ -1,0 +1,3 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2025-06-04 08:09:12 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '197608022005011014',name='dr. Willy Hendriko Ogi, Sp.OG',password='$2y$10$uRHDWn' at line 1 - Invalid query: INSERT INTO `student` (`code`, `name`, `password`, `group_ID`, `status`) VALUES ('\'197608022005011014', 'dr. Willy Hendriko Ogi, Sp.OG', '$2y$10$uRHDWnXCZGui5jYjR7sc6eYCG0qCYBHL31rMYJMKkxtNMydz13dfW', 24, 1) ON DUPLICATE KEY UPDATE code=''197608022005011014',name='dr. Willy Hendriko Ogi, Sp.OG',password='$2y$10$uRHDWnXCZGui5jYjR7sc6eYCG0qCYBHL31rMYJMKkxtNMydz13dfW',group_ID='24',status='1'

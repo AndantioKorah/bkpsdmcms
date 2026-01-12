@@ -1,2 +1,0 @@
-# LAB
-NiKita LAB
